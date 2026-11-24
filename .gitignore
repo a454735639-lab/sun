@@ -1,0 +1,17 @@
+# Local runtime data — don't commit
+runtime/
+conf/database/
+conf/uploads/
+conf/custom/
+conf/temp/
+conf/cache/
+*.log
+
+# The reference binary pulled from the image. It is a 33 MB Linux ARM64
+# executable: GitHub rejects files over 100 MB but it is still a large blob.
+# Comment the next line out if you want it in the repository.
+build/sun-panel
+
+# OS / editor noise
+.DS_Store
+Thumbs.db

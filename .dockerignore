@@ -1,0 +1,9 @@
+# Files that should never be sent to the Docker build context.
+.git
+runtime
+conf/database
+conf/uploads
+conf/custom
+conf/temp
+conf/cache
+*.log

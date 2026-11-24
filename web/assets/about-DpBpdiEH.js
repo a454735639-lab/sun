@@ -1,0 +1,1 @@
+import{bL as n}from"./index-DX9iIPV8.js";function t(){return n({url:"/about"})}function u(r){return n({url:"/about/version/checkNewVersion",data:{isCheckBeta:r}})}function e(){return n({url:"/about/version/runningInfo"})}export{u as c,t as g,e as r};
